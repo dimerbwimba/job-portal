@@ -9,17 +9,17 @@ export const SearchBar = () => {
                 <div className=" grid grid-cols-12 gap-x-4">
                     <div className=" col-span-3 relative">
                         <XCircle className=" text-muted-foreground h-5 w-5 absolute top-1/4 right-3 bg-white z-30" />
-                        <Input type="search" placeholder="Search job here" className=" placeholder-slate-800 text-lg font-semibold relative pl-10" />
+                        <Input type="search" placeholder="Search job here" className=" placeholder-slate-800 text-md font-semibold relative pl-10" />
                         <Search className=" text-muted-foreground absolute top-1/4 left-2 h-5 w-5" />
                     </div>
                     <div className=" col-span-4 relative">
                         <XCircle className=" text-muted-foreground h-5 w-5 absolute top-1/4 right-3 bg-white z-30" />
-                        <Input type="search" placeholder="Search by company" className=" placeholder-slate-800 text-lg font-semibold relative pl-10" />
+                        <Input type="search" placeholder="Search by company" className=" placeholder-slate-800 text-md font-semibold relative pl-10" />
                         <Home className=" text-muted-foreground absolute top-1/4 left-2 h-5 w-5" />
                     </div>
                     <div className=" col-span-3 relative">
                         <XCircle className=" text-muted-foreground h-5 w-5 absolute top-1/4 right-3 bg-white z-30" />
-                        <Input type="search" placeholder="Search by location" className=" placeholder-slate-800 text-lg font-semibold relative pl-10" />
+                        <Input type="search" placeholder="Search by location" className=" placeholder-slate-800 text-md font-semibold relative pl-10" />
                         <MapPin className=" text-muted-foreground absolute top-1/4 left-2 h-5 w-5" />
                     </div>
                     <div className=" col-span-2 relative">
@@ -49,7 +49,7 @@ export const SearchBar = () => {
                             <option className="px-3">More Options</option>
                         </select>
                     </div>
-                    <div className=" text-lg">
+                    <div className=" text-md">
                         Clear All
                     </div>
                 </div>

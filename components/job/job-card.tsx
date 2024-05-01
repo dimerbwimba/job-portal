@@ -17,11 +17,11 @@ type  JobCardProps =  {
 export const JobCard = ({name, location,postedTime, description, company}:JobCardProps)=>{
     return (
         <div className=" w-full shadow-lg rounded-lg  ">
-            <div className="py-3 px-6">
+            <div className="py-3 px-4">
                 <div className=" grid grid-cols-12">
                     <div className=" col-span-8">
-                        <h2 className=" font-bold line-clamp-1">{name}</h2>
-                        <p className=" text-muted-foreground">{location}</p>
+                        <h2 className=" font-bold text-[16px] line-clamp-1">{name}</h2>
+                        <p className=" text-muted-foreground text-[16px]">{location}</p>
                     </div>
                     <div className=" col-span-4">
                         <div className=" flex justify-center items-center mt-1">
